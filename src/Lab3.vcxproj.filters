@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9546df24-b837-47d8-8d11-32b149f14125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain">
+      <UniqueIdentifier>{0ed55737-0bec-4e9e-a214-a8df7396ef3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\repository">
+      <UniqueIdentifier>{15bf477e-d50d-4461-b4a0-274125c6eb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{ce9904da-3862-4b35-8590-8420e439b50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\service">
+      <UniqueIdentifier>{f9e24946-f25c-47eb-87b0-7f46540bd76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\repository\Headers">
+      <UniqueIdentifier>{03b3ad52-781d-496a-916c-89a4d753b72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\repository\Sources">
+      <UniqueIdentifier>{aa286e89-7fbb-4218-ab16-193f22e1940a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\service\Headers">
+      <UniqueIdentifier>{8a0f02f0-e0a5-41cd-a21d-464a7d49b537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\service\Sources">
+      <UniqueIdentifier>{52bbcdf3-4c11-4311-8507-cf9bb7392cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\Headers">
+      <UniqueIdentifier>{ca952eb2-5623-4579-8fbe-b3419788f334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui\Sources">
+      <UniqueIdentifier>{7aa58ab5-a06d-441f-9d27-e39897de49a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{56c6e781-f257-4004-a1ab-c6955bd95a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\validators">
+      <UniqueIdentifier>{74527b36-4c6b-43dd-9d96-33111d60b768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\entitites">
+      <UniqueIdentifier>{eb14db21-035e-44b8-a731-df12a4371121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\utility">
+      <UniqueIdentifier>{1e0e9cec-fee1-41ac-9123-a80c74862578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\utility\Headers">
+      <UniqueIdentifier>{0a997ccf-c60f-4fc9-9653-5d288011cc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\utility\Sources">
+      <UniqueIdentifier>{cf681536-dd92-4669-ad3d-ce49671776ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tests">
+      <UniqueIdentifier>{d9bdb620-3f8d-4bd0-90fe-4ac1cf279510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tests\domain">
+      <UniqueIdentifier>{32900e8c-ae49-492a-ac9e-cd8ec360377a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tests\repository">
+      <UniqueIdentifier>{6954a599-d727-493f-bbfa-07331d2cc84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tests\service">
+      <UniqueIdentifier>{867ab9d9-21fe-4b03-8ee9-2a543b2ea263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\operations">
+      <UniqueIdentifier>{f8afd45f-b056-404a-96ec-0469d324ede3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\operations\Headers">
+      <UniqueIdentifier>{13aec23c-cfb7-4865-adcb-d2c32613c0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain\operations\Sources">
+      <UniqueIdentifier>{932ae4da-ab83-4fc6-a387-2f3f40e73952}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Console.c">
+      <Filter>src\ui\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialService.c">
+      <Filter>src\service\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.c">
+      <Filter>src\domain\entitites</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.c">
+      <Filter>src\domain\utility\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialValidator.c">
+      <Filter>src\domain\validators</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialRepository.c">
+      <Filter>src\repository\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="test_vector.c">
+      <Filter>src\tests\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="test_material_repository.c">
+      <Filter>src\tests\repository</Filter>
+    </ClCompile>
+    <ClCompile Include="test_material.c">
+      <Filter>src\tests\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="test_all.c">
+      <Filter>src\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="test_material_validator.c">
+      <Filter>src\tests\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="test_material_service.c">
+      <Filter>src\tests\service</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialOperation.c">
+      <Filter>src\domain\operations\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="test_material_operation.c">
+      <Filter>src\tests\domain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="repository.h">
+      <Filter>src\repository\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>src\ui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>src\service\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialService.h">
+      <Filter>src\service\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>src\domain\entitites</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>src\domain\utility\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>src\domain\utility\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="domain.h">
+      <Filter>src\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialValidator.h">
+      <Filter>src\domain\validators</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialRepository.h">
+      <Filter>src\repository\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tests.h">
+      <Filter>src\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>src\ui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialOperation.h">
+      <Filter>src\domain\operations\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationType.h">
+      <Filter>src\domain\operations\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
